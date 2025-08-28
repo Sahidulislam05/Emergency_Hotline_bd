@@ -53,7 +53,7 @@ for (const btn of allButtons) {
 
 // Functionalities task 02
 
-// clear section
+// clear button section
 
 clearButton.addEventListener("click", function () {
   myHistoryList.innerHTML = "";
