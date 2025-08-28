@@ -26,7 +26,7 @@ for (const btn of allButtons) {
     const serviceNumber = myCard.querySelector("h2.text-3xl").innerText;
 
     if (myCoins < 20) {
-      alert("Not enough coins to make a call!");
+      alert("You need at least 20 coins to make a call!");
       return;
     }
     alert(`Calling ${serviceName} ${serviceNumber}`);
@@ -47,7 +47,8 @@ for (const btn of allButtons) {
 
 `;
 
-    myHistoryList.prepend(newElement);
+    // myHistoryList.prepend(newElement);
+    myHistoryList.appendChild(newElement);
   });
 }
 
